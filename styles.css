@@ -277,3 +277,55 @@ li {
     height: 250px;
     width: 250px;
 }
+
+.platform {
+    background-color: white;
+}
+
+.platform_part1>h2 {
+    color: #025157;
+}
+
+.platform_part1 span {
+    color: rgba(65, 143, 19, 0.959);
+}
+
+.platform_part1 button {
+    display: block;
+    border-radius: 8px;
+    border: none;
+    width: 15%;
+    height: 35px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.platform_part2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform_part2>article {
+    border: 1px solid grey;
+    /* margin: 10px 10px; */
+}
+
+.platform_part2 img {
+    height: 300px;
+    width: 150px;
+}
+
+.platform_part2 h3 {
+    color: #025157;
+    font-weight: bold;
+}
+
+.platform_part2 p {
+    font-size: small;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.platform_part2 a {
+    color: rgba(65, 143, 19, 0.959);
+}
