@@ -225,3 +225,55 @@ li {
     font-weight: bold;
     margin: 20px auto;
 }
+
+.features {
+    background-color: #005457;
+    display: grid;
+    height: 660px;
+    width: 100%;
+    /* grid-template-columns: repeat(2, 1fr);    
+    grid-template-rows: repeat(2, 1fr); */
+    /* El atajo de grid-template es que el primero es rows y el segundo columns */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.features>article {
+    background-color: white;
+    margin: 20px 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.features h3 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.features p {
+    text-align: left;
+    font-size: small;
+}
+
+.features a {
+    text-align: left;
+    /* padding-right: 50px; */
+    color: rgba(65, 143, 19, 0.959);
+}
+
+.publish {
+    display: flex;
+}
+
+.icon_publish {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    right: 70px;
+    top: 5px;
+}
+
+.image_publish {
+    height: 250px;
+    width: 250px;
+}
