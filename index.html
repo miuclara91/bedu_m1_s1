@@ -107,7 +107,7 @@
               >
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex signup-form">
             <input
               class="form-control me-2"
               type="search"
@@ -137,12 +137,12 @@
         soluta exercitationem!
       </p>
 
-      <form class="formulario">
+      <form class="formulario signup-form">
         <input type="email" />
         <button type="submit" class="btn btn-info">Try it now &rarr;</button>
       </form>
 
-      <form>
+      <form class="signup-form">
         <label for="nombre">Nombre:</label><br />
         <input type="text" id="nombre" name="nombre" /><br />
         <label for="apellido">Apellido:</label><br />
@@ -208,11 +208,13 @@
             10,000+ professionally written articles and build your email list
             faster with our powerful conversion tool.
           </p>
-          <form>
+          <form class="signup-form">
             <p>Start publishing today:</p>
             <div>
-              <input type="text" placeholder="Enter email" />
-              <button>Start My Trial</button>
+              <input type="email" id="email" placeholder="Enter email address"/>
+              <button type="submit">
+                Try it now!
+              </button>
             </div>
           </form>
         </article>
@@ -543,5 +545,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
